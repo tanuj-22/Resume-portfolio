@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-
+import HashLoader from "react-spinners/HashLoader";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import About from "./Components/About";
@@ -11,10 +11,20 @@ import Portfolio from "./Components/Portfolio";
 import "./App.css";
 
 const App = () => {
+
+  const [loading,setLoading]  =useState(false);
+
+    useEffect(()=>{
+      setLoading(true);
+      setTimeout(()=>{
+        setLoading(false);
+      },2000);
+    },[])
+
   const [resumeData, setResumeData] = useState({});
 
-  useEffect(() => {
-    fetch("/resumeData.json")
+useEffect( () => {
+       fetch("/resumeData.json")
       .then((res) => res.json())
       .then((data) => {
         setResumeData(data);
@@ -22,14 +32,26 @@ const App = () => {
   }, []);
 
   return (
+    
+
     <div className="App">
-      <Header data={resumeData.main} />
+      {
+        loading ?<div className="react-preloader-tj">
+          <HashLoader color={"#9B9B9B"} loading={loading}  size={150} />
+        </div>
+        
+        
+        :
+      <div><Header data={resumeData.main} />
       <About data={resumeData.main} />
       <Resume data={resumeData.resume} />
       <Portfolio data={resumeData.portfolio} />
       <Testimonials data={resumeData.testimonials} />
       <Contact data={resumeData.main} />
       <Footer data={resumeData.main} />
+      </div>
+      
+      }
     </div>
   );
 };
