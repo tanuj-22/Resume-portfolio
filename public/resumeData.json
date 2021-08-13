@@ -1,0 +1,128 @@
+{
+  "main": {
+    "name": "Tanuj Pancholi",
+    "occupation": " Student at Pune Institute of Computer Technology ",
+    "description": "Full Stack Developer and ML enthusiast",
+    "image": "profilepicfinal.jpg",
+    "bio": "Hi there! I am Tanuj! I've been coding for almost around 3 years and I am pursuing my Bachelor's degree in Computer Science. I am interested in Web Development, Machine Learning and Cloud Computing. I am always keen to learn new things and implement projects to find solution to problems.",
+    "contactmessage": "Get in touch with me ",
+    "email": "pancholi.tanuj8@gmail.com",
+    "phone": "+91 8855922769",
+    "address": {
+      "street": "9 Opposite Akashwani",
+      "city": "Chandrapur",
+      "state": "Maharashtra",
+      "zip": "442401"
+    },
+    "website": "#",
+    "resumedownload": "https://drive.google.com/file/d/12aiR9L4ChVDZV1h-gKgJt2cPqURysS1B/view?usp=sharing",
+    "social": [
+      
+      
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/tanuj-pancholi-ts-220869",
+        "className": "fa fa-linkedin"
+      },
+      
+      {
+        "name": "github",
+        "url": "https://github.com/tanuj-22",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "My Programming Language Proficiency",
+    "education": [
+      {
+        "school": "Pune Institute Of Computer Technology",
+        "degree": "Bachelor's Degree, Computer Science",
+        "graduated": "July 2019 - Present",
+        "description": "9.45 CGPA"
+      }
+    ],
+    "work": [
+      {
+        "company": "Wireless Network Lab PICT",
+        "title": "Product Development Intern",
+        "years": "Nov 2019 - Mar 2020",
+        "description": "Worked on the College sponsored project. We created a smartkit and detected whether the driver has worn helmet or not using IoT."
+      },
+      {
+        "company": "Sparks Foundation",
+        "title": "Web Development Intern",
+        "years": "Jul 2021 - Aug 2021",
+        "description": "Worked on payment gateway integration."
+      }
+    ],
+    "skills": [
+      {
+        "name": "ReactJs",
+        "level": "75%"
+      },
+      {
+        "name": "C++",
+        "level": "95%"
+      },
+      {
+        "name": "Python",
+        "level": "85%"
+      },
+
+      {
+        "name": "Git and Version control",
+        "level": "75%"
+      },
+      {
+        "name": "JavaScript",
+        "level": "85%"
+      },
+      {
+        "name": "MERN",
+        "level": "85%"
+      },
+      {
+        "name": "Numpy",
+        "level": "80%"
+      },
+      {
+        "name": "Pandas",
+        "level": "85%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Razorpay Payment Integration Template (React and Node JS )",
+        "category": "",
+        "image": "razorpay.jpg",
+        "url": "https://github.com/tanuj-22/Razorpay-payment-template"
+      },
+      {
+        "title": "Basic Banking System",
+        "category": "",
+        "image": "bank.png",
+        "url": "https://github.com/tanuj-22/Basic-Banking-System"
+      },
+      {
+        "title": "Use of TMDB API in React",
+        "category": "",
+        "image": "netflix-clone.jpg",
+        "url": "https://netflix-clone-28ee2.web.app/"
+      },
+      {
+        "title": "TradUrb Ecom Platform ",
+        "category": "",
+        "image": "tradurb.png",
+        "url": "https://github.com/tanuj-22/TradUrb-Ecom-Platform/"
+      }
+      
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+    ]
+  }
+}
