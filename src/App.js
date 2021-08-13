@@ -18,7 +18,7 @@ const App = () => {
       setLoading(true);
       setTimeout(()=>{
         setLoading(false);
-      },2000);
+      },2250);
     },[])
 
   const [resumeData, setResumeData] = useState({});
