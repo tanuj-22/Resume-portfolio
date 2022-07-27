@@ -2,26 +2,26 @@
   "main": {
     "name": "Tanuj Pancholi",
     "occupation": " Student at Pune Institute of Computer Technology ",
-    "description": "Full Stack Developer and ML enthusiast",
+    "description": "Full Stack Developer",
     "image": "profilepicfinal.jpg",
     "bio": "Hi there! I am Tanuj! I've been coding for almost around 3 years and I am pursuing my Bachelor's degree in Computer Science. I am interested in Web Development, Machine Learning and Cloud Computing. I am always keen to learn new things and implement projects to find solution to problems.",
     "contactmessage": "Get in touch with me ",
     "email": "pancholi.tanuj8@gmail.com",
     "phone": "+91 8855922769",
     "address": {
-      "street": "9 Opposite Akashwani",
-      "city": "Chandrapur",
+      "street": "",
+      "city": "Pune",
       "state": "Maharashtra",
-      "zip": "442401"
+      "zip": "411046"
     },
     "website": "#",
-    "resumedownload": "https://drive.google.com/file/d/12aiR9L4ChVDZV1h-gKgJt2cPqURysS1B/view?usp=sharing",
+    "resumedownload": "https://drive.google.com/file/d/1S0ATZIohs2nJohNrwy0jraC8eFN6QVzA/view?usp=sharing",
     "social": [
       
       
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/in/tanuj-pancholi-ts-220869",
+        "url": "https://www.linkedin.com/in/tanuj-pancholi",
         "className": "fa fa-linkedin"
       },
       
@@ -39,82 +39,130 @@
         "school": "Pune Institute Of Computer Technology",
         "degree": "Bachelor's Degree, Computer Science",
         "graduated": "July 2019 - Present",
-        "description": "9.45 CGPA"
+        "description": "9.64 CGPA"
       }
     ],
     "work": [
       {
+        "company": "GrowMonks",
+        "title": "Full Stack Developer",
+        "years": "May 2022 - Present",
+        "description": "Part-Time"
+      },
+      {
+        "company": "IMATMI",
+        "title": "Full Stack Development Intern",
+        "years": "Aug 2021 - Feb 2022",
+        "description": "Worked on EdTech Platform for providing assistance to differently abled students"
+      },
+      {
         "company": "Wireless Network Lab PICT",
         "title": "Product Development Intern",
         "years": "Nov 2019 - Mar 2020",
-        "description": "Worked on the College sponsored project. We created a smartkit and detected whether the driver has worn helmet or not using IoT."
-      },
-      {
-        "company": "Sparks Foundation",
-        "title": "Web Development Intern",
-        "years": "Jul 2021 - Aug 2021",
-        "description": "Worked on payment gateway integration."
+        "description": "Worked on the Smart Helmet Systems, a project based on IoT and Cloud Computing"
       }
+      
     ],
     "skills": [
+      
       {
-        "name": "ReactJs",
-        "level": "75%"
-      },
-      {
-        "name": "C++",
+        "name": "JavaScript",
         "level": "95%"
       },
       {
-        "name": "Python",
-        "level": "85%"
+        "name": "MERN Stack",
+        "level": "90%"
       },
-
+      
       {
-        "name": "Git and Version control",
-        "level": "75%"
-      },
-      {
-        "name": "JavaScript",
-        "level": "85%"
-      },
-      {
-        "name": "MERN",
-        "level": "85%"
-      },
-      {
-        "name": "Numpy",
+        "name": "C++",
         "level": "80%"
       },
       {
-        "name": "Pandas",
+        "name": "Java",
+        "level": "80%"
+      },
+      {
+        "name": "Python",
+        "level": "75%"
+      },
+
+      {
+        "name":"DSA",
+        "level":"75%"
+      },
+      {
+        "name":"OOP",
+        "level":"80%"
+      },
+      
+      {
+        "name": "Django",
+        "level": "70%"
+      },
+      {
+        "name": "Php",
+        "level": "75%"
+      },
+      {
+        "name": "SQL",
         "level": "85%"
+      },
+      {
+        "name": "Git and Version control",
+        "level": "95%"
       }
     ]
   },
   "portfolio": {
     "projects": [
       {
-        "title": "Razorpay Payment Integration Template (React and Node JS )",
-        "category": "",
-        "image": "razorpay.jpg",
-        "url": "https://github.com/tanuj-22/Razorpay-payment-template"
+        "title": "Booksports Website",
+        "category": "Website designed for client",
+        "image": "booksports.webp",
+        "url": "https://booksports.io/"
       },
       {
-        "title": "Basic Banking System",
-        "category": "",
-        "image": "bank.png",
-        "url": "https://github.com/tanuj-22/Basic-Banking-System"
+        "title": "Slimkart Website",
+        "category": "Website designed for client",
+        "image": "slimkart.webp",
+        "url": "http://167.71.7.165/index.html"
+      },
+      {
+        "title": "WorkShare Project",
+        "category": "Personal Project",
+        "image": "workshare.webp",
+        "url": "https://workshare.netlify.app/"
+      },
+      {
+        "title": "Credenz PISB Website",
+        "category": "Event Page",
+        "image": "credenz.webp",
+        "url": "https://credenz.in/"
+      },
+      {
+        "title": "Art of Success",
+        "category": "Internship Work",
+        "image": "artofsuccess.webp",
+        "url": ""
       },
       {
         "title": "Use of TMDB API in React",
-        "category": "",
+        "category": "Project",
         "image": "netflix-clone.jpg",
         "url": "https://netflix-clone-28ee2.web.app/"
       },
       {
+        "title": "Child Charity",
+        "category": "Mockup",
+        "image": "child.webp",
+        "url": "https://childcharity.netlify.app/"
+      },
+      
+      
+      {
         "title": "TradUrb Ecom Platform ",
-        "category": "",
+        "category": "Project",
         "image": "tradurb.png",
         "url": "https://github.com/tanuj-22/TradUrb-Ecom-Platform/"
       }

@@ -125,8 +125,7 @@ const Contact = ({ data }) => {
               <br />
               {contactEmail}
               <br />
-              <br />
-              {street} <br />
+              
               {city}, {state} {zip}
               <br />
               <span>{phone}</span>

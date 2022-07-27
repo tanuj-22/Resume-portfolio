@@ -34,6 +34,7 @@ const Portfolio = ({ data }) => {
           <div
             id="portfolio-wrapper"
             className="bgrid-quarters s-bgrid-thirds cf"
+            style={{display: "flex", flexWrap: "wrap"}}
           >
             {projects}
           </div>
