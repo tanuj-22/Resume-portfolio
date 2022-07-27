@@ -3,6 +3,19 @@ import React from "react";
 const Resume = ({ data }) => {
   if (data) {
     var skillmessage = data.skillmessage;
+    var educationM = data.education.map(function (education) {
+      return (
+        <div key={education.school}>
+          <h3>{education.school}</h3>
+          
+          <p className="info">
+            {education.degree} <br></br><span>&bull;</span>
+            <em className="date">{education.graduated}</em>
+          </p>
+          <p>{education.description}</p>
+        </div>
+      );
+    });
     var education = data.education.map(function (education) {
       return (
         <div key={education.school}>
@@ -12,6 +25,19 @@ const Resume = ({ data }) => {
             <em className="date">{education.graduated}</em>
           </p>
           <p>{education.description}</p>
+        </div>
+      );
+    });
+
+    var workM = data.work.map(function (work) {
+      return (
+        <div key={work.company}>
+          <h3>{work.company}</h3>
+          <p className="info">
+            {work.title}
+            <br /><span>&bull;</span> <em className="date">{work.years}</em>
+          </p>
+          <p>{work.description}</p>
         </div>
       );
     });
@@ -37,7 +63,7 @@ const Resume = ({ data }) => {
       );
     });
   }
-
+  const isMobile = window.innerWidth < 567;
   return (
     <section id="resume">
       <div className="row education">
@@ -49,7 +75,7 @@ const Resume = ({ data }) => {
 
         <div className="nine columns main-col">
           <div className="row item">
-            <div className="twelve columns">{education}</div>
+            <div className="twelve columns">{isMobile ? educationM : education}</div>
           </div>
         </div>
       </div>
@@ -61,7 +87,7 @@ const Resume = ({ data }) => {
           </h1>
         </div>
 
-        <div className="nine columns main-col">{work}</div>
+        <div className="nine columns main-col">{isMobile ? workM:work}</div>
       </div>
 
       <div className="row skill">
